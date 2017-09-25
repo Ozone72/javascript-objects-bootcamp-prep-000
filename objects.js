@@ -1,4 +1,4 @@
-var playlist = {artistName: 'songTitle'} //create object
+const playlist = {artistName: 'songTitle'} //create object
 
 /*
 function updatePlaylist(playlist, artistName, songTitle){
