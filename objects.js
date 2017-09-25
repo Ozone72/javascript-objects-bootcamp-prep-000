@@ -7,4 +7,4 @@ function updatePlaylist(playlist, artistName, songTitle){
   return playlist
 }
 
-console.log(playlist)
+//console.log(playlist)
