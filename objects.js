@@ -3,12 +3,13 @@ var playlist = {artistName:'Steve Earle', songTitle:'Copperhead Row'} //create o
 
 function updatePlaylist(playlist, artistName, songTitle){
   //object playList will update key -> artistName with value -> songTitle
-  return Object.assign({}, playlist, {[artistName]: songTitle})
+  Object.assign({}, playlist, {[artistName]: songTitle})
+  return playlist
 }
 
 console.log(playlist)
 updatePlaylist(playlist,'Stevie Wonder', 'Songs in the Key of Life')
-console.log(playlist)
+
 
 function removeFromPlaylist(playlist, artistName){
   delete playlist.artistName
