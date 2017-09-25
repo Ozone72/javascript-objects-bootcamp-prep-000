@@ -5,6 +5,7 @@ function updatePlaylist(playlist, artistName, songTitle){
   //object playList will update key -> artistName with value -> songTitle
   playlist.artistsName = 'artistName'
   playlist.songTitle = 'songTitle'
+  return playlist
 }
 
 console.log(playlist)
