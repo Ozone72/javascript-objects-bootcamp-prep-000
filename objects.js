@@ -3,9 +3,7 @@ var playlist = {artistName:'Steve Earle', songTitle:'Copperhead Row'} //create o
 
 function updatePlaylist(playlist, artistName, songTitle){
   //object playList will update key -> artistName with value -> songTitle
-  playlist. = artistName
-  playlist.songTitle = songTitle
-  return playlist
+  return Object.assign({}, obj, {[artistName]: songTitle})
 }
 
 //console.log(playlist)
