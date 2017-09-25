@@ -6,4 +6,4 @@ function updatePlaylist(playlist, artistName, songTitle){
   return playList
 }
 
-updatePlaylist(playList, 'Steve Earle', 'Copperhead Row')
+playList
