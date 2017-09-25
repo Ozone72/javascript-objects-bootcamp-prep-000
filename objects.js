@@ -1,4 +1,4 @@
-var playlist = {artistName: 'Steve Earle', songTitle: 'Copperhead Row'} //create object
+var playlist = {'Steve Earle':'Copperhead Row'} //create object
 
 
 function updatePlaylist(playlist, artistName, songTitle){
