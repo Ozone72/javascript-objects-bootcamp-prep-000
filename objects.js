@@ -3,9 +3,8 @@ var playlist = {
   artistName:'Steve Earle',
   songTitle:'Copperhead Row'
 }
-
+////object playList will update key -> artistName with value -> songTitle
 function updatePlaylist(playlist, artistName, songTitle){
-  //object playList will update key -> artistName with value -> songTitle
   playlist.artistName = artistName
   playlist.songTitle = songTitle
   return playlist
