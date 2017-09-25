@@ -1,6 +1,6 @@
  //create object
 var playlist = {
-  artistName:'Steve Earle', 
+  artistName:'Steve Earle',
   songTitle:'Copperhead Row'
 }
 
