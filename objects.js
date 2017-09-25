@@ -10,6 +10,6 @@ function updatePlaylist(playlist, artistName, songTitle){
 //console.log(playlist)
 
 function removeFromPlaylist(playlist, artistName){
-  delete playList.artistName
-  return playList
+  delete playlist.artistName
+  return playlist
 }
