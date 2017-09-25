@@ -6,10 +6,8 @@ var playlist = {
 
 function updatePlaylist(playlist, artistName, songTitle){
   //object playList will update key -> artistName with value -> songTitle
-  var artist_name = artistName
-  var song_title = songTitle
-  playlist[artistName] = artist_name
-  playlist[songTitle] = song_title
+  playlist.artistName = artistName
+  playlist.songTitle = songTitle
   return playlist
 }
 
