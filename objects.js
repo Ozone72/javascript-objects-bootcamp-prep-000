@@ -5,3 +5,5 @@ function updatePlaylist(playlist, artistName, songTitle){
   playList[artistName] = songTitle
   return playList
 }
+
+updatePlaylist(playList, 'Steve Earle', 'Copperhead Row')
