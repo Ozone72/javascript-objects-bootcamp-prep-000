@@ -13,7 +13,7 @@ function updatePlaylist(playlist, artistName, songTitle){
 
 console.log(playlist)
 updatePlaylist(playlist,'Stevie Wonder', 'Songs in the Key of Life')
-
+console.log(playlist)
 
 function removeFromPlaylist(playlist, artistName){
   delete playlist.artistName
