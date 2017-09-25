@@ -1,10 +1,10 @@
  //create object
 var playlist = {
-  'Queensryche':'Silent Lucidity'
+  artistName:'songTitle'
 }
 ////object playList will update key -> artistName with value -> songTitle
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist.artistName = artistName
+  playlist
   playlist.songTitle = songTitle
   return playlist
 }
