@@ -9,4 +9,7 @@ function updatePlaylist(playlist, artistName, songTitle){
 
 //console.log(playlist)
 
-function removeFromPlaylist(playlist, artistName)
+function removeFromPlaylist(playlist, artistName){
+  delete playList.artistName
+  return playList
+}
