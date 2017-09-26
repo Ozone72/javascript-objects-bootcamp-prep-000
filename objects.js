@@ -1,11 +1,10 @@
  //create object
-const artistName = "Steve Earle"
 var playlist = {
-  [artistName]: 'Copperhead Road'
+  'Steve Earle': 'Copperhead Road'
 }
-////object playList will update key -> artistName with value -> songTitle
+//object playList will update key -> artistName with value -> songTitle
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist[artistName] = songTitle
+  playlist
   return playlist
 }
 
