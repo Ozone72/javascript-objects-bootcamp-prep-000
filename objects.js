@@ -1,4 +1,4 @@
- //create object
+ //create object with artist's name as key and song title as value
 var playlist = {
   'Steve Earle': 'Copperhead Road'
 }
